@@ -16,12 +16,12 @@ const App = () => {
         path="/counseling/:view?"
         render={({ match }) => {
           const { view } = match.params
-          console.log(view)
           return <Counseling paramView={view} />
         }}
       ></Route>
       <Route path="/fertility-care" render={() => <FertilityCare />}></Route>
       <Route path="/crunchi" render={() => <Crunchi />}></Route>
+      <Redirect to="/" />
     </Switch>
   )
 }

@@ -1,17 +1,30 @@
 import "./Tabs.css"
 
+import bethCounseling from "../../img/beth_counseling.jpeg"
+
 const AboutMe = () => {
   return (
     <div className="tab-content">
-      <p>
-        Hi and Welcome! If you’re here, on this page, you may be at a point in
-        your journey where something has come up that you’d like help working
-        through. Many choose me to be their therapist if they are looking for a
-        Catholic Christian therapist. Although my own faith is why I do what I
-        do, I never force faith or prayer into counseling sessions, but allow
-        clients to choose how integrating faith (or not) may be of help for
-        their sessions.
-      </p>
+      <div className="flex f-jc-sb">
+        <div className="w-45">
+          <p>
+            Hi and Welcome! If you’re here, on this page, you may be at a point
+            in your journey where something has come up that you’d like help
+            working through. Many choose me to be their therapist if they are
+            looking for a Catholic Christian therapist. Although my own faith is
+            why I do what I do, I never force faith or prayer into counseling
+            sessions, but allow clients to choose how integrating faith (or not)
+            may be of help for their sessions.
+          </p>
+        </div>
+        <div className="w-45">
+          <img
+            src={bethCounseling}
+            alt="Headshot of Beth wearing a blue sweater against a gray background"
+            className="w-100"
+          />
+        </div>
+      </div>
       <p>
         My journey to helping others began in my teenage years, and I began
         leadership programs in high school. These programs helped me form as a

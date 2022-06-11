@@ -3,11 +3,11 @@ import "./Tabs.css"
 const Services = () => {
   return (
     <div className="tab-content">
-      <div>
+      <div className="tab-content-section">
         <p className="bold">Individual Counseling</p>
         <p>I provide individual online Telehelath counseling for adults.</p>
       </div>
-      <div>
+      <div className="tab-content-section">
         <p className="bold">My Approach</p>
         <p>
           As human beings, we usually have problems that tend to be complex. My
@@ -19,7 +19,7 @@ const Services = () => {
           desire for you, your relationships and your life.
         </p>
       </div>
-      <div>
+      <div className="tab-content-section">
         <p className="bold">
           Some areas treated through Hope Counseling, LLC include:
         </p>
@@ -39,7 +39,7 @@ const Services = () => {
           <li>Life transitions</li>
         </ul>
       </div>
-      <div>
+      <div className="tab-content-section">
         <p>
           We trust the Divine Healer. While we wait in confident hope for Jesus
           to return and make all things new at the end of time, we also believe
@@ -48,7 +48,7 @@ const Services = () => {
           depression and anxiety.
         </p>
       </div>
-      <div>
+      <div className="tab-content-section">
         <p className="bold">Payment</p>
         <p>
           I accept private pay only. I will provide a Superbill for clients to

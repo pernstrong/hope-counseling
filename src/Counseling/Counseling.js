@@ -21,7 +21,6 @@ const Counseling = ({ paramView = "home" }) => {
   const [view, setView] = useState(paramMap[paramView])
 
   useEffect(() => {
-    console.log("change")
     setView(paramMap[paramView])
   }, [paramView])
 
@@ -32,7 +31,7 @@ const Counseling = ({ paramView = "home" }) => {
       <Helmet>
         <title>Hope Conseling, LLC</title>
       </Helmet>
-      <Sidebar tabs={tabs} view={view}/>
+      <Sidebar tabs={tabs} view={view} />
       <main className="">
         <p className="bold" style={{ fontSize: "1.5em" }}>
           Hope Conseling, LLC | {view}

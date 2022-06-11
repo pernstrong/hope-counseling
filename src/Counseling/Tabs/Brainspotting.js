@@ -3,7 +3,7 @@ import "./Tabs.css"
 const Brainspotting = () => {
   return (
     <div className="tab-content">
-      <div>
+      <div className="tab-content-section">
         <p className="bold">Curious about Brainspotting?</p>
         <p>
           Brainspotting is a powerful, focused treatment method that works by
@@ -14,7 +14,7 @@ const Brainspotting = () => {
           spiritual, and physical levels.
         </p>
       </div>
-      <div>
+      <div className="tab-content-section">
         <p className="bold">What is Brainspotting?</p>
         <p>
           The motto of Brainspotting is “where you look affects how you feel.”
@@ -33,7 +33,7 @@ const Brainspotting = () => {
           that promotes the client’s self-healing capacities.
         </p>
       </div>
-      <div>
+      <div className="tab-content-section">
         <p className="bold">Is Brainspotting only for trauma?</p>
         <p>
           No. Brainspotting was founded by working with trauma clients, but it
@@ -42,7 +42,7 @@ const Brainspotting = () => {
           TV actors, addiction, loss and grief.
         </p>
       </div>
-      <div>
+      <div className="tab-content-section">
         <p className="bold">Is Brainspotting safe?</p>
         <p>
           Absolutely. Brainspotting therapists know that the only solutions to
@@ -56,7 +56,7 @@ const Brainspotting = () => {
           associated with the events.
         </p>
       </div>
-      <div>
+      <div className="tab-content-section">
         <p>
           Disorders, problems, and conditions that may benefit from
           Brainspotting include:
@@ -112,10 +112,9 @@ const Brainspotting = () => {
           <li>Procrastination (associated with trauma)</li>
           <li>Poor concentration (associate with trauma)</li>
           <li>Low motivation</li>
-          <li></li>
         </ul>
       </div>
-      <div>
+      <div className="tab-content-section">
         <p>
           As you can see, Brainspotting can be an effective therapeutic
           intervention for a wide range of disorders and problems. However, it
