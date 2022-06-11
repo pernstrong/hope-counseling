@@ -29,7 +29,7 @@ const Sidebar = ({ tabs, view }) => {
   return (
     <nav className="sidebar pt-3">
       <div className="flex f-jc-c bold">
-        <p>Hope Corner</p>
+        <Link to="/" className="hope-corner-sidenav">Hope Corner</Link>
       </div>
       <div className="mt-5">{displayTabs()}</div>
     </nav>

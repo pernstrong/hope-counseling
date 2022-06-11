@@ -1,5 +1,6 @@
 {
   "name": "hope-counseling",
+  "homepage": "https://pernstrong.github.io/hope-counseling",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
