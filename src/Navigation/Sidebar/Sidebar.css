@@ -1,0 +1,33 @@
+.sidebar {
+  background-color: lightblue;
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* width: 200px; */
+  width: 15%;
+  height: 100%;
+  /* padding-top: 50px; */
+  z-index: 2000;
+}
+
+.tab-active,
+.tab-inactive {
+  font-size: 1.2em;
+  text-decoration: none;
+  /* width: 100%; */
+}
+
+.tab-active {
+  /* font-weight: 600; */
+  color: darkmagenta;
+}
+
+.tab-inactive {
+  color: black;
+}
+
+/* .tab-container {
+  display: flex;
+  flex-wrap: wrap;
+
+} */

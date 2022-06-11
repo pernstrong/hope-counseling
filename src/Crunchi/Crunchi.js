@@ -1,10 +1,13 @@
+import { Helmet } from "react-helmet"
 
 const Crunchi = () => {
-
   return (
-    <div>
-      <p>Crunchi</p>
-    </div>
+    <>
+      <Helmet>
+        <title>Hope-filled Crunchi Life</title>
+      </Helmet>
+      <p>Hope-filled Crunchi Lifei</p>
+    </>
   )
 }
 
