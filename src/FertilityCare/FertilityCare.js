@@ -1,10 +1,13 @@
+import { Helmet } from "react-helmet"
 
 const FertilityCare = () => {
-
   return (
-    <div>
-      <p>Fertility Care</p>
-    </div>
+    <>
+      <Helmet>
+        <title>Hope FertilityCare Center</title>
+      </Helmet>
+      <p>Hope FertilityCare Center</p>
+    </>
   )
 }
 

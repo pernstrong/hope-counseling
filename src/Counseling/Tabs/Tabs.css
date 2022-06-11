@@ -1,0 +1,17 @@
+.tab-content {
+  margin-top: 5%;
+}
+
+.tab-content p {
+  line-height: 1.5em;
+  font-size: 1.1em
+}
+
+.tab-content li {
+  margin-top: 2%;
+  font-size: 1.1em;
+}
+
+.tab-content-section {
+  margin-top: 5%;
+}
