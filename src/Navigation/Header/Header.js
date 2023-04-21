@@ -26,7 +26,10 @@ const Header = () => {
         </DropdownButton>
         <DropdownButton title="Fertility Care">
           <Dropdown.Item>
-            <Link to="/fertility-care">Hope Fertility Care</Link>
+            <Link to="/fertility-care/creighton-model">Creighton Model</Link>
+          </Dropdown.Item>
+          <Dropdown.Item>
+            <Link to="/fertility-care/naprotechnology">NaproTechnology</Link>
           </Dropdown.Item>
         </DropdownButton>
         <DropdownButton title="Crunchi">

@@ -31,7 +31,7 @@ const Counseling = ({ paramView = "home" }) => {
       <Helmet>
         <title>Hope Conseling, LLC</title>
       </Helmet>
-      <Sidebar tabs={tabs} view={view} />
+      <Sidebar page="counseling" tabs={tabs} view={view} />
       <main>
         <p className="bold" style={{ fontSize: "1.5em" }}>
           Hope Conseling, LLC | {view}

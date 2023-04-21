@@ -6,7 +6,6 @@ const Crunchi = () => {
       <Helmet>
         <title>Hope-filled Crunchi Life</title>
       </Helmet>
-      <p>Hope-filled Crunchi Lifei</p>
     </>
   )
 }

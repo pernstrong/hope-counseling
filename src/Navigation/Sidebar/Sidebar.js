@@ -9,7 +9,7 @@ const nameToUrl = (url) => {
     .toLowerCase()
 }
 
-const Sidebar = ({ tabs, view }) => {
+const Sidebar = ({ page, tabs, view }) => {
   const displayTabs = () => {
     return tabs.map((tab) => {
       const highlightActive = tab === view ? "tab-active" : "tab-inactive"
@@ -17,7 +17,7 @@ const Sidebar = ({ tabs, view }) => {
         <div className="flex f-jc-c">
           <Link
             className={`d-b my-4 ${highlightActive}`}
-            to={`/counseling/${nameToUrl(tab)}`}
+            to={`/${page}/${nameToUrl(tab)}`}
           >
             {tab}
           </Link>
