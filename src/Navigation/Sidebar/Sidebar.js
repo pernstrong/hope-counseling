@@ -20,7 +20,7 @@ const Sidebar = ({ page, tabs, view }) => {
         >
           {tab}
         </Link>
-    )
+      )
     })
   }
 

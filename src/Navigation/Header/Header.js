@@ -1,12 +1,16 @@
 import { Dropdown, DropdownButton } from "react-bootstrap"
+import { Link } from "react-router-dom"
 
 import "./Header.css"
-import { Link } from "react-router-dom"
 
 const Header = () => {
   return (
     <header className="flex f-ai-c">
-      <Link to="/"><p className="h2 mx-5" style={{color: "fff"}}>Hope Corner</p></Link>
+      <Link to="/">
+        <p className="h2 mx-5" style={{ color: "fff" }}>
+          Hope Corner
+        </p>
+      </Link>
       <div className="flex f-jc-sb">
         <DropdownButton title="Counseling" className="mx-3">
           <Dropdown.Item>
