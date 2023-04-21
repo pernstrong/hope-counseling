@@ -24,7 +24,7 @@ const Counseling = ({ paramView = "home" }) => {
     setView(paramMap[paramView])
   }, [paramView])
 
-  const tabs = ["Home", "About Me", "Services", "Brainspotting", "Resources"]
+  const tabs = ["Home", "Services", "About Me", , "Brainspotting", "Resources"]
 
   return (
     <>
@@ -32,7 +32,7 @@ const Counseling = ({ paramView = "home" }) => {
         <title>Hope Conseling, LLC</title>
       </Helmet>
       <Sidebar tabs={tabs} view={view} />
-      <main className="">
+      <main>
         <p className="bold" style={{ fontSize: "1.5em" }}>
           Hope Conseling, LLC | {view}
         </p>
