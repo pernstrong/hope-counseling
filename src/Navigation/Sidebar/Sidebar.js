@@ -9,29 +9,27 @@ const nameToUrl = (url) => {
     .toLowerCase()
 }
 
-const Sidebar = ({ tabs, view }) => {
+const Sidebar = ({ page, tabs, view }) => {
   const displayTabs = () => {
     return tabs.map((tab) => {
       const highlightActive = tab === view ? "tab-active" : "tab-inactive"
       return (
-        <div className="flex f-jc-c">
-          <Link
-            className={`d-b my-4 ${highlightActive}`}
-            to={`/counseling/${nameToUrl(tab)}`}
-          >
-            {tab}
-          </Link>
-        </div>
-      )
+        <Link
+          className={`d-b my-4 mx-4 ${highlightActive}`}
+          to={`/${page}/${nameToUrl(tab)}`}
+        >
+          {tab}
+        </Link>
+    )
     })
   }
 
   return (
-    <nav className="sidebar pt-3">
-      <div className="flex f-jc-c bold">
-        <Link to="/" className="hope-corner-sidenav">
+    <nav className="sidebar">
+      <div className="flex f-jc-c bold pt-4">
+        {/* <Link to="/" className="hope-corner-sidenav">
           Hope Corner
-        </Link>
+        </Link> */}
       </div>
       <div className="mt-5">{displayTabs()}</div>
     </nav>

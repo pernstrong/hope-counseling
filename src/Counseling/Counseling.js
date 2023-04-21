@@ -31,14 +31,14 @@ const Counseling = ({ paramView = "home" }) => {
       <Helmet>
         <title>Hope Conseling, LLC</title>
       </Helmet>
-      <Sidebar tabs={tabs} view={view} />
-      <main className="">
+      <Sidebar page="counseling" tabs={tabs} view={view} />
+      <main>
         <p className="bold" style={{ fontSize: "1.5em" }}>
           Hope Conseling, LLC | {view}
         </p>
         {view === "Home" && <Home />}
-        {view === "About Me" && <AboutMe />}
         {view === "Services" && <Services />}
+        {view === "About Me" && <AboutMe />}
         {view === "Brainspotting" && <Brainspotting />}
         {view === "Resources" && <Resources />}
       </main>
