@@ -14,15 +14,13 @@ const Sidebar = ({ page, tabs, view }) => {
     return tabs.map((tab) => {
       const highlightActive = tab === view ? "tab-active" : "tab-inactive"
       return (
-        <div className="flex f-jc-c">
-          <Link
-            className={`d-b my-4 ${highlightActive}`}
-            to={`/${page}/${nameToUrl(tab)}`}
-          >
-            {tab}
-          </Link>
-        </div>
-      )
+        <Link
+          className={`d-b my-4 mx-4 ${highlightActive}`}
+          to={`/${page}/${nameToUrl(tab)}`}
+        >
+          {tab}
+        </Link>
+    )
     })
   }
 

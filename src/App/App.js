@@ -29,7 +29,13 @@ const App = () => {
             return <FertilityCare paramView={view} />
           }}
         ></Route>
-        <Route path="/crunchi" render={() => <Crunchi />}></Route>
+        <Route
+          path="/crunchi/:view?"
+          render={({ match }) => {
+            const { view } = match.params
+            return <Crunchi paramView={view} />
+          }}
+        ></Route>
         <Redirect to="/" />
       </Switch>
     </div>

@@ -5,9 +5,10 @@ import { Link } from "react-router-dom"
 
 const Header = () => {
   return (
-    <header className="flex f-ai-c f-jc-c">
-      <div className="flex f-jc-sa w-40">
-        <DropdownButton title="Counseling">
+    <header className="flex f-ai-c">
+      <Link to="/"><p className="h2 mx-5" style={{color: "fff"}}>Hope Corner</p></Link>
+      <div className="flex f-jc-sb">
+        <DropdownButton title="Counseling" className="mx-3">
           <Dropdown.Item>
             <Link to="/counseling/home">Hope Counseling</Link>
           </Dropdown.Item>
@@ -24,7 +25,7 @@ const Header = () => {
             <Link to="/counseling/resources">Resources</Link>
           </Dropdown.Item>
         </DropdownButton>
-        <DropdownButton title="Fertility Care">
+        <DropdownButton title="Fertility Care" className="mx-3">
           <Dropdown.Item>
             <Link to="/fertility-care/creighton-model">Creighton Model</Link>
           </Dropdown.Item>
@@ -32,9 +33,9 @@ const Header = () => {
             <Link to="/fertility-care/naprotechnology">NaproTechnology</Link>
           </Dropdown.Item>
         </DropdownButton>
-        <DropdownButton title="Crunchi">
+        <DropdownButton title="Crunchi" className="mx-3">
           <Dropdown.Item>
-            <Link to="/crunchi">Crunchi</Link>
+            <Link to="/crunchi/home">Home</Link>
           </Dropdown.Item>
         </DropdownButton>
       </div>

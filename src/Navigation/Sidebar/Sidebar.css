@@ -16,6 +16,7 @@
 
 .tab-active {
   color: darkmagenta;
+  font-weight: bold;
 }
 
 .tab-inactive {
