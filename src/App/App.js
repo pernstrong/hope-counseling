@@ -7,7 +7,6 @@ import Home from "../Home/Home"
 import Header from "../Navigation/Header/Header"
 import "../custom.css"
 
-
 import "./App.css"
 
 const App = () => {

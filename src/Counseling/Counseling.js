@@ -24,7 +24,7 @@ const Counseling = ({ paramView = "home" }) => {
     setView(paramMap[paramView])
   }, [paramView])
 
-  const tabs = ["Home", "Services", "About Me", , "Brainspotting", "Resources"]
+  const tabs = ["Home", "About Me", "Services", "Brainspotting", "Resources"]
 
   return (
     <>
@@ -37,8 +37,8 @@ const Counseling = ({ paramView = "home" }) => {
           Hope Conseling, LLC | {view}
         </p>
         {view === "Home" && <Home />}
-        {view === "About Me" && <AboutMe />}
         {view === "Services" && <Services />}
+        {view === "About Me" && <AboutMe />}
         {view === "Brainspotting" && <Brainspotting />}
         {view === "Resources" && <Resources />}
       </main>
