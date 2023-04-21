@@ -1,11 +1,13 @@
 import { useEffect } from "react"
 import { useState } from "react"
+
 import { Helmet } from "react-helmet"
+
 import Sidebar from "../Navigation/Sidebar/Sidebar"
 import Home from "./Home"
 
 const paramMap = {
-  "home": "Home",
+  home: "Home"
 }
 
 const Crunchi = ({ paramView }) => {
@@ -16,7 +18,7 @@ const Crunchi = ({ paramView }) => {
   }, [paramView])
 
   const tabs = ["Home"]
-  
+
   return (
     <>
       <Helmet>

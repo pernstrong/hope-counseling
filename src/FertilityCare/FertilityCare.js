@@ -2,9 +2,9 @@ import { useState, useEffect } from "react"
 
 import { Helmet } from "react-helmet"
 
+import Sidebar from "../Navigation/Sidebar/Sidebar"
 import CreightonModel from "./Tabs/CreightonModel"
 import Naprotechnology from "./Tabs/Naprotechnology"
-import Sidebar from "../Navigation/Sidebar/Sidebar"
 
 const paramMap = {
   "creighton-model": "Creighton Model",
