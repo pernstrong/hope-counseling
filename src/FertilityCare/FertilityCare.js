@@ -8,7 +8,7 @@ import Naprotechnology from "./Tabs/Naprotechnology"
 
 const paramMap = {
   "creighton-model": "Creighton Model",
-  naprotechnology: "Naprotechnology"
+  naprotechnology: "NaproTechnology"
 }
 
 const FertilityCare = ({ paramView }) => {
@@ -31,7 +31,7 @@ const FertilityCare = ({ paramView }) => {
           Hope FertilityCare Center | {view}
         </p>
         {view === "Creighton Model" && <CreightonModel />}
-        {view === "Naprotechnology" && <Naprotechnology />}
+        {view === "NaproTechnology" && <Naprotechnology />}
       </main>
     </>
   )
